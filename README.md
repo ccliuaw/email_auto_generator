@@ -12,6 +12,7 @@ The program will substitute the [[placeholder]] in your template with the actual
 Example:
 -
 >-- Your cvs file with 2 rows of info:
+>-
 >
 >name   | phone   | email       <-- this is header
 >
@@ -22,6 +23,7 @@ Example:
 
  
 >-- Your template.txt file content:
+>-
 >
 >Hi, my name is [[name]]
 >
@@ -32,8 +34,9 @@ Example:
 
  
 >-- By run this code, we will generate 2 output files.
->
+>-
 >The 1st file will look like this:
+>-
 >
 >Hi, my name is Jack
 >
