@@ -1,0 +1,15 @@
+Letters-template example
+Made by colic
+
+Please check your information, and if you need to change, contact CCLIU
+
+Name: [[first_name]] [[last_name]]
+Company name: [[company_name]]
+Address: [[address]], [[city]], [[county]], [[state]], [[zip]]
+Phones: [[phone1]] and [[phone2]]
+Web: [[web]]
+
+Dummy: [[dummy]] (this should not be replaced)
+
+Best,
+CCLIU

@@ -1,0 +1,18 @@
+From: insuranceCompany@ic.com
+To: [[email]]
+Subject: Your personal info
+
+Dear [[first_name]] [[last_name]],
+Below is your info:
+Company name: [[company_name]]
+Address: [[address]], [[city]], [[county]], [[state]], [[zip]]
+Phones: [[phone1]] and [[phone2]]
+Web: [[web]]
+
+Dummy: [[dummy]] (this should not be replaced)
+
+Best,
+EMAIL_TEMP
+
+
+
