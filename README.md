@@ -9,8 +9,8 @@ Then you can generate all the output files at once.
 
 The program will substitute the [[placeholder]] in your template with the actual information in the csv file with the corresponding header.
 
-Example:
--
+## Example:
+
 > Your cvs file (with 2 rows of info) :
 >-
 >
@@ -32,9 +32,7 @@ Example:
 >Here is my phone : [[phone]]
 
 
- 
-> By run this code, we will generate 2 output files (since you have 2 rows in .csv).
->-
+## By run this code, we will generate 2 output files (since you have 2 rows in .csv):
 
 >**The 1st file will look like this:**
 >
