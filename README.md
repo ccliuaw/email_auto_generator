@@ -11,7 +11,7 @@ The program will substitute the [[placeholder]] in your template with the actual
 
 Example:
 -
->-- Your cvs file with 2 rows of info:
+> Your cvs file (with 2 rows of info) :
 >-
 >
 >name   | phone   | email       <-- this is header
@@ -22,7 +22,7 @@ Example:
 
 
  
->-- Your template.txt file content:
+> Your template.txt file content:
 >-
 >
 >Hi, my name is [[name]]
@@ -33,16 +33,25 @@ Example:
 
 
  
->-- By run this code, we will generate 2 output files.
+> By run this code, we will generate 2 output files (since you have 2 rows in .csv).
 >-
+
 >The 1st file will look like this:
->-
 >
 >Hi, my name is Jack
 >
 >And my email is : jack@email
 >
 >Here is my phone : 123456
+
+> 
+>The 2nd file will look like this:
+>
+>Hi, my name is Mark
+>
+>And my email is : mark@email
+>
+>Here is my phone : 456123
 
 
 # Input your command in the terminal
@@ -62,6 +71,8 @@ template
 
 --csv-file \<path> : accept the name of the csv file to process
 
->ex: --email --email-template myTemplate.txt --output-dir storage --csv-file info.csv
+>Example:
+>-
+>--email --email-template myTemplate.txt --output-dir storage --csv-file info.csv
 >
 >By input this argument, it will use the info.csv and myTemplate.txt to generate output files and store in storage folder
