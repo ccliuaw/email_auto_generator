@@ -36,7 +36,7 @@ Example:
 > By run this code, we will generate 2 output files (since you have 2 rows in .csv).
 >-
 
->The 1st file will look like this:
+>**The 1st file will look like this:**
 >
 >Hi, my name is Jack
 >
@@ -45,7 +45,7 @@ Example:
 >Here is my phone : 123456
 
 > 
->The 2nd file will look like this:
+>**The 2nd file will look like this:**
 >
 >Hi, my name is Mark
 >
@@ -57,22 +57,22 @@ Example:
 # Input your command in the terminal
 Valid commands are:
 
---email : only generate email messages
+**--email** : only generate email messages
 
---email-template \<filename> : accept a filename that holds the email
+**--email-template \<filename>** : accept a filename that holds the email
 template
 
---letter : only generate letters
+**--letter** : only generate letters
 
---letter-template \<filename> : accept a filename that holds the letter
+**--letter-template \<filename>** : accept a filename that holds the letter
 template
 
---output-dir \<path> : accept the name of a folder, all output is placed in this folder
+**--output-dir \<path>** : accept the name of a folder, all output is placed in this folder
 
---csv-file \<path> : accept the name of the csv file to process
+**--csv-file \<path>** : accept the name of the csv file to process
 
 >Example:
 >-
->--email --email-template myTemplate.txt --output-dir storage --csv-file info.csv
+>_--email --email-template myTemplate.txt --output-dir storage --csv-file info.csv_
 >
 >By input this argument, it will use the info.csv and myTemplate.txt to generate output files and store in storage folder
