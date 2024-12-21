@@ -51,9 +51,14 @@ The program will substitute the [[placeholder]] in your template with the actual
 >
 >Here is my phone : 456123
 
+## Execution
 
-# Input your command in the terminal
-Valid commands are:
+Run `java Main <your commands>` under command line environment.
+
+Example: `java Main --email-template my-email-template.txt --email --output-dir temp12 --csv-file inputCSV.csv`, In this case, I am using _my-email-template.txt_ as the input template, with _temp12_ folder as my output file directory, and _inputCSV.csv_ as my input csv file.
+
+
+## Valid commands are:
 
 **--email** : only generate email messages
 
